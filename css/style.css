@@ -172,7 +172,7 @@
     grid-template-columns: 277px 17% 16% 277px;
     grid-row-gap: 43px;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
 }
 
 .news-articles-item1 {
@@ -263,7 +263,8 @@
 }
 
 .inner-container-width {
-    padding: 0 15%;
+    width: 1170px;
+    padding: 0 365px;
 }
 
 .pad-7-3 {
@@ -281,4 +282,8 @@
 
 .fsz0 {
     font-size: 0;
+}
+
+.w1900{
+    width: 1900px;
 }
