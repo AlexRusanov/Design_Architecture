@@ -159,7 +159,11 @@
 
 .top-rated-list {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.top-rated-img {
+    width: 100%;
 }
 
 .hot-news {
@@ -264,7 +268,7 @@
 
 .inner-container-width {
     width: 1170px;
-    padding: 0 365px;
+    padding: 0 255px;
 }
 
 .pad-7-3 {
@@ -282,8 +286,4 @@
 
 .fsz0 {
     font-size: 0;
-}
-
-.w1900{
-    width: 1900px;
 }
