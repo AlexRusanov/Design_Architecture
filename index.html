@@ -12,11 +12,10 @@
         <a href="#" class="header-logo">Architect</a>
         <nav class="header-menu">
             <a href="#" class="header-menu-item">HOME</a>
-            <a href="#" class="header-menu-item">ARCHITECTURE DESIGN</a>
-            <a href="#" class="header-menu-item">STRANGE BUILDINGS</a>
-            <a href="#" class="header-menu-item">MAGAZINE</a>
-            <a href="#" class="header-menu-item">BLOG</a>
-            <a href="#" class="header-menu-item">NEWS</a>
+            <a href="#section1" class="header-menu-item">POPULAR POSTS</a>
+            <a href="#section2" class="header-menu-item">POPULAR CLIENTS</a>
+            <a href="#section3" class="header-menu-item">TOP RATED</a>
+            <a href="#section4" class="header-menu-item">HOT NEWS</a>
         </nav>
         <i class="fas fa-search"></i>
         <div class="header-latest-news">
@@ -26,7 +25,7 @@
         </div>
     </header>
 
-    <section class="most-popular-posts-section">
+    <section id="section1" class="most-popular-posts-section">
         <h2 class="section-header">MOST POPULAR POSTS</h2>
         <div class="most-popular-posts-list inner-container-width">
             <a href="#" class="posts-list-item">
@@ -56,7 +55,7 @@
         </div>
     </section>
 
-    <section class="most-popular-clients-section">
+    <section id="section2" class="most-popular-clients-section">
         <h2 class="popular-clients-section-header">OUR MOST POPULAR CLIENTS</h2>
         <div class="most-popular-clients-list">
             <a href="#" class="most-popular-client-1"></a>
@@ -66,7 +65,7 @@
         </div>
     </section>
 
-    <section class="top-rated-section">
+    <section id="section3" class="top-rated-section">
         <h2 class="section-header">TOP RATED</h2>
         <div class="top-rated-list">
             <img class="top-rated-img" src="img/top-rated-img-1.png" alt="top rated img 1 NOT FOUND">
@@ -79,7 +78,7 @@
         </div>
     </section>
 
-    <section class="hot-news">
+    <section id="section4" class="hot-news">
         <h2 class="section-header">HOT NEWS</h2>
         <div class="hot-news-articles inner-container-width">
             <a href="#" class="news-articles-item1 fsz0">
@@ -139,12 +138,19 @@
         </div>
     </section>
 
+    <div class="btn-container">
+        <button class="btn-toggle-news"></button>
+    </div>
+
+    <button class="btn-to-top">Наверх</button>
+
     <footer class="footer inner-container-width">
         <span>All Rights Reserved &copy 2014  architect.com - Interior Design & Architecture Magazine</span>
         <button id="changeThemeBtn">Сменить тему</button>
         <span class="footer-logo">LIOIT</span>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
